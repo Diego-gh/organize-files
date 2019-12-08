@@ -3,9 +3,9 @@ import shutil, os
 # [Folder, .extension, .extension, . . . ]
 # Must be a list of lists
 ORDER = [["Images", ".jpg", ".png", ".tif"],
-		 ["Videos", ".mp4", ".MOV"],
-		 ["Documents", ".doc",".docx", ".pdf"],
-		 ["Music", ".mp3", ".wav", ".aac"]]
+	["Videos", ".mp4", ".MOV"],
+	["Documents", ".doc",".docx", ".pdf"],
+	["Music", ".mp3", ".wav", ".aac"]]
 
 # Get the location of this script
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
